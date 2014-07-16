@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+	<TextView
+        android:id="@+id/numeric_layout_number_text"
+		android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginBottom="5dip"
+        android:background="@drawable/border_black"/>
+    <LinearLayout
+        android:layout_marginTop="5dip"
+    	android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >        
+        <ImageButton
+            android:id="@+id/numeric_layout_1"
+            android:scaleType="centerInside"
+            android:layout_width="70dip"
+            android:layout_height="70dip"
+            android:layout_marginLeft="10dip"
+			android:background="#00FFFFFF"                        
+            android:src="@drawable/bt_keypad_1" />
+        <ImageButton
+            android:id="@+id/numeric_layout_2"
+            android:scaleType="centerInside"
+            android:layout_width="70dip"
+            android:layout_height="70dip"
+            android:layout_marginLeft="10dip"
+			android:background="#00FFFFFF"                        
+            android:src="@drawable/bt_keypad_2" />
+        <ImageButton
+            android:id="@+id/numeric_layout_3"
+            android:scaleType="centerInside"
+            android:layout_width="70dip"
+            android:layout_height="70dip"
+            android:layout_marginLeft="10dip"
+			android:background="#00FFFFFF"                        
+            android:src="@drawable/bt_keypad_3" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dip"
+    	android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >        
+        <ImageButton
+            android:id="@+id/numeric_layout_4"
+            android:scaleType="centerInside"
+            android:layout_width="70dip"
+            android:layout_height="70dip"            
+            android:layout_marginLeft="10dip"
+			android:background="#00FFFFFF"                        
+            android:src="@drawable/bt_keypad_4" />
+        <ImageButton
+            android:id="@+id/numeric_layout_5"
+            android:scaleType="centerInside"
+            android:layout_width="70dip"
+            android:layout_height="70dip"
+            android:layout_marginLeft="10dip"
+			android:background="#00FFFFFF"                        
+            android:src="@drawable/bt_keypad_5" />
+        <ImageButton
+            android:id="@+id/numeric_layout_6"
+            android:scaleType="centerInside"
+            android:layout_width="70dip"
+            android:layout_height="70dip"
+            android:layout_marginLeft="10dip"
+			android:background="#00FFFFFF"                        
+            android:src="@drawable/bt_keypad_6" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dip"
+    	android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >        
+        <ImageButton
+            android:id="@+id/numeric_layout_7"
+            android:scaleType="centerInside"
+            android:layout_width="70dip"
+            android:layout_height="70dip"            
+            android:layout_marginLeft="10dip"
+			android:background="#00FFFFFF"                        
+            android:src="@drawable/bt_keypad_7" />
+        <ImageButton
+            android:id="@+id/numeric_layout_8"
+            android:scaleType="centerInside"
+            android:layout_width="70dip"
+            android:layout_height="70dip"
+            android:layout_marginLeft="10dip"
+			android:background="#00FFFFFF"                        
+            android:src="@drawable/bt_keypad_8" />
+        <ImageButton
+            android:id="@+id/numeric_layout_9"
+            android:scaleType="centerInside"
+            android:layout_width="70dip"
+            android:layout_height="70dip"
+            android:layout_marginLeft="10dip"
+			android:background="#00FFFFFF"                        
+            android:src="@drawable/bt_keypad_9" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dip"
+    	android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <ImageButton
+            android:id="@+id/numeric_layout_delete"
+            android:scaleType="centerInside"
+            android:layout_width="70dip"
+            android:layout_height="70dip"
+            android:layout_marginLeft="10dip"
+			android:background="#00FFFFFF"                        
+            android:src="@drawable/bt_keypad_delete" />
+        <ImageButton
+            android:id="@+id/numeric_layout_0"
+            android:scaleType="centerInside"
+            android:layout_width="70dip"
+            android:layout_height="70dip"            
+            android:layout_marginLeft="10dip"
+			android:background="#00FFFFFF"                        
+            android:src="@drawable/bt_keypad_0" />
+        <ImageButton
+            android:id="@+id/numeric_layout_return"
+            android:scaleType="centerInside"
+            android:layout_width="70dip"
+            android:layout_height="70dip"            
+            android:layout_marginLeft="10dip"
+			android:background="#00FFFFFF"                        
+            android:src="@drawable/bt_keypad_return" />        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dip"
+    	android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <ImageButton
+            android:scaleType="centerInside"
+            android:layout_width="70dip"
+            android:layout_height="70dip"            
+            android:layout_marginLeft="10dip"
+			android:background="#00FFFFFF"/>
+        <ImageButton
+            android:id="@+id/numeric_layout_point"
+            android:scaleType="centerInside"
+            android:layout_width="70dip"
+            android:layout_height="70dip"
+            android:layout_marginLeft="10dip"
+			android:background="#00FFFFFF"                        
+            android:src="@drawable/bt_keypad_point" />        
+        <ImageButton
+            android:scaleType="centerInside"
+            android:layout_width="70dip"
+            android:layout_height="70dip"            
+            android:layout_marginLeft="10dip"
+			android:background="#00FFFFFF"/>        
+    </LinearLayout>    
+</LinearLayout>

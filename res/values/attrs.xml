@@ -1,0 +1,22 @@
+<resources>
+    <declare-styleable name="AzimuthView">
+        
+    </declare-styleable>
+    <declare-styleable name="KImageButton">
+        <attr name="srcBase" 										format="reference"/>
+        <attr name="srcChanged" 									format="reference"/>
+        <attr name="pathImgBase" 									format="string"/>
+        <attr name="pathImgChanged" 								format="string"/>
+        <attr name="tristateChanged" 								format="boolean"/>
+        <attr name="tristatePushed" 								format="boolean"/>
+    </declare-styleable>       
+    <declare-styleable name="TileMenuWidget"> 
+        <attr name="IntervalMilliseconds" 							format="integer"/>
+        <attr name="ReverseText" 									format="string"/>
+        <attr name="ReversedBackgroundColor" 						format="string"/>			
+        <attr name="ReversedForegroundColor" 						format="string"/>			        			        
+        <attr name="ReversedTextSize" 								format="float"/>        
+        <attr name="URLBackGroundImage" 							format="string"/>
+    </declare-styleable>
+    
+</resources>

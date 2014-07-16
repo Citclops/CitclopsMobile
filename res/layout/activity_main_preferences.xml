@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+            
+	<LinearLayout 
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:background="@drawable/background_menu_gradient"
+	    tools:context=".MainPreferencesActivity" >
+	    
+		<!-- To not show automatically keyboard -->
+	    <LinearLayout android:focusableInTouchMode="true" android:layout_width="0dip" android:layout_height="0dip" android:focusable="true"/>
+	    	
+	    <TextView
+			android:textColor="#FFFFFFFF"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:gravity="center_horizontal"
+	        android:textSize="32sp"
+	        android:text="@string/main_preferences_title" />
+	
+	    <LinearLayout 
+		    android:layout_width="match_parent"
+			android:background="@drawable/linear_layout_border"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:layout_marginTop="10dip"
+		    android:layout_marginLeft="5dip"
+		    android:layout_marginRight="5dip">
+	        <TextView
+		    	android:layout_marginLeft="5dip"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"
+		        android:textSize="18sp"
+		        android:textColor="#FF4CA4BC"
+		        android:text="@string/main_preferences_profile_title" />        	    
+	        <TextView
+		    	android:layout_marginLeft="5dip"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="left"
+		        android:textSize="14sp"
+		    	android:layout_marginTop="10dip"
+		        android:textColor="#FF4CA4BC"
+		        android:text="@string/main_preferences_profile_select" />
+	        <Spinner
+	            android:padding="10dip"
+		    	android:layout_marginTop="5dip"
+		    	android:layout_marginBottom="10dip"
+		    	android:layout_marginRight="10dip"
+		    	android:layout_marginLeft="10dip"
+		    	android:background="#FFFFFFFF"
+	            android:id="@+idMainPreferences/spnProfiles"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content" />
+		</LinearLayout>
+
+	    <LinearLayout 
+		    android:layout_width="match_parent"
+			android:background="@drawable/linear_layout_border"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:layout_marginTop="10dip"
+		    android:layout_marginLeft="5dip"
+		    android:layout_marginRight="5dip">
+	        <TextView
+		    	android:layout_marginLeft="5dip"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"
+		        android:textSize="18sp"
+		        android:textColor="#FF4CA4BC"
+		        android:text="@string/main_preferences_measurement_title" />
+	        
+		  	<FrameLayout 
+			   	android:layout_marginTop="5dip"
+			    android:layout_width="match_parent"
+		        android:layout_height="match_parent">	        
+		        <TextView
+		    		android:layout_marginLeft="5dip"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:gravity="center_vertical"
+			        android:layout_gravity="center_vertical"
+			        android:textSize="16sp"
+			        android:textColor="#FF4CA4BC"
+			        android:text="@string/main_preferences_ask_secchi_disk" />
+			        <ToggleButton
+	            		android:id="@+idMainPreferences/toggleButtonSecchiDisk"
+			            android:checked="true"
+			   			android:layout_marginRight="10dip"
+			        	android:layout_gravity="right"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"/>
+			</FrameLayout>
+			<FrameLayout 
+			   	android:layout_marginTop="5dip"
+			   	android:layout_marginBottom="5dip"
+			    android:layout_width="match_parent"
+		        android:layout_height="match_parent">	        
+		        <TextView
+		    		android:layout_marginLeft="5dip"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:gravity="center_vertical"
+			        android:layout_gravity="center_vertical"
+			        android:textSize="16sp"
+			        android:textColor="#FF4CA4BC"
+			        android:text="@string/main_preferences_ask_plastic_scale" />
+			        <ToggleButton
+	            		android:id="@+idMainPreferences/toggleButtonPlasticScale"
+			            android:checked="true"
+			   			android:layout_marginRight="10dip"
+			        	android:layout_gravity="right"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"/>
+			</FrameLayout>	        	    
+		</LinearLayout>	    	    
+	    <LinearLayout 
+		    android:layout_width="match_parent"
+			android:background="@drawable/linear_layout_border"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:layout_marginTop="10dip"
+		    android:layout_marginLeft="5dip"
+		    android:layout_marginRight="5dip">
+	        <TextView
+		    	android:layout_marginLeft="5dip"
+		    	android:layout_marginTop="10dip"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_horizontal"
+		        android:textSize="18sp"
+		        android:textColor="#FF4CA4BC"
+		        android:text="@string/main_preferences_send_title" />
+	        
+			<FrameLayout 
+			   	android:layout_marginTop="10dip"
+			    android:layout_width="match_parent"
+		        android:layout_height="match_parent">	        
+		        <TextView
+		    		android:layout_marginLeft="5dip"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:gravity="center_vertical"
+			        android:layout_gravity="center_vertical"
+			        android:textSize="16sp"
+			        android:textColor="#FF4CA4BC"
+			        android:text="@string/main_preferences_send_on_off" />
+			        <ToggleButton
+	            		android:id="@+idMainPreferences/toggleButtonUploadInfo"
+			            android:checked="true"
+			   			android:layout_marginRight="10dip"
+			        	android:layout_gravity="right"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"/>
+			</FrameLayout>
+			<FrameLayout 
+			    android:layout_width="match_parent"
+		        android:layout_height="match_parent">	        
+		        <TextView
+		            android:visibility="gone"
+					android:layout_marginLeft="5dip"	            
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:gravity="center_vertical"
+			        android:layout_gravity="center_vertical"
+			        android:textSize="16sp"
+			        android:textColor="#FF4CA4BC"
+			        android:text="@string/main_preferences_send_wifi" />
+			        <ToggleButton
+		            	android:visibility="gone"
+			            android:enabled="false"
+			   			android:layout_marginRight="10dip"
+			        	android:layout_gravity="right"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"/>
+			</FrameLayout>
+			<LinearLayout
+			    android:layout_marginBottom="10dip"
+			    android:orientation="vertical" 
+			    android:layout_width="match_parent"
+		        android:layout_height="match_parent">	        
+		        <TextView
+		           	android:layout_marginLeft="5dip"	            
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:gravity="center_vertical"
+			        android:layout_gravity="center_vertical"
+			        android:textSize="16sp"
+			        android:textColor="#FF4CA4BC"
+			        android:text="@string/main_preferences_send_mail_title" />
+			        <EditText
+	            		android:id="@+idMainPreferences/txtMailSurvey"
+			            android:enabled="false"
+			            android:inputType="textEmailAddress"
+			            android:layout_marginLeft="20dip"
+			            android:layout_marginRight="10dip"
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:ems="10" >
+			        </EditText>	
+			</LinearLayout>
+		</LinearLayout>	    
+	</LinearLayout>
+</ScrollView>

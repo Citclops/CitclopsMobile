@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Citclops</string>
+
+    <!-- Menu Activity -->
+    <string name="menu_activity_error_load_gen">Load Error: </string>
+    <string name="menu_activity_fuscale">Colour Measurement</string>
+    <string name="menu_activity_citlops_data">Citclops Data</string>
+    <string name="menu_activity_citlops_buoy">Citclops Buoy</string>
+    <string name="menu_activity_preferences">Preferences</string>
+    <string name="menu_activity_help">Information</string>
+    <string name="menu_activity_intro_text1">Be more informed about the quality of natural waters</string>
+    <string name="menu_activity_intro_text2">Be environmentally active by providing water quality data</string>
+    <string name="menu_activity_profile_title">Select your profile</string>
+    <string name="menu_activity_profile_msg_ok">OK</string>
+    <string name="menu_activity_profile_msg_cancel">Cancel</string>
+
+    <!-- About -->
+    <string name="about_title">About app</string>
+    <string name="about_author">Author:</string>
+    <string name="about_author_name">Citclops Consortium</string>
+    <string name="about_email">Email:</string>
+    <string name="about_email_name"><u>lsubirats@bdigital.org</u></string>
+    <string name="about_rights">No rights reserved</string>
+    <string name="about_version">Version</string>
+
+    <!-- Main -->
+    <string name="title_activity_fuscale">Colour Measurement</string>
+    <string name="main_menu_preferences">Colour Bar Settings</string>
+    <string name="main_menu_camera">Camera Settings</string>
+    <string name="main_menu_about">About</string>
+    <string name="main_back_to_exit">Press again to exit.</string>
+    <string name="main_submenu_title">Select Parameter</string>
+    <string name="main_submenu_whitebalance">White Balance</string>
+    <string name="main_submenu_focusmode">Focus Mode</string>
+    <string name="main_submenu_scenemode">Scene Mode</string>
+    <string name="main_gps_not_found_title">Location is NOT Enabled</string>
+    <string name="main_gps_not_found_message">Do you want to Enable Location?</string>
+    <string name="main_gps_not_found_Yes">Yes</string>
+    <string name="main_gps_not_found_No">No</string>
+    <string name="main_gps_not_found_Mandatory">Location must be Enabled to Start a Measurement</string>
+    <string name="main_location_not_set_Mandatory">Location must be Set for Measurement</string>
+    <string name="main_dataupload_off">Data Upload is <b>OFF</b>. Remember to turn <b>ON</b> to send measurement\'s information.</string>
+    
+    <!-- Load Main Activity -->
+    <string name="main_error_opencamera">Unable to open camera</string>
+    <string name="main_error_load_gen">Load Error: </string>
+    <string name="main_error_no_sensors">There is no sensors to get device position</string>
+
+	<!-- App Preferences -->    
+    <string name="main_preferences_title">App Preferences</string>
+    <string name="main_preferences_profile_title"><u>Profile Preferences</u></string>
+    <string name="main_preferences_profile_select">Select Profile</string>    
+    <string name="main_preferences_measurement_title"><u>Measurement preferences</u></string>
+    <string name="main_preferences_ask_secchi_disk">Ask as about Secchi Disk</string>
+    <string name="main_preferences_ask_plastic_scale">Ask about FU Scale</string>
+    <string name="main_preferences_send_title"><u>Data Upload Preferences</u></string>
+    <string name="main_preferences_send_on_off">Data Upload On/Off</string>
+    <string name="main_preferences_send_wifi">Upload only Wi-Fi Connected</string>
+    <string name="main_preferences_send_mail_title">Send final Survey to</string>
+    <string name="main_preferences_exit_save_yes">Yes</string>
+    <string name="main_preferences_exit_save_no">No</string>
+    <string name="main_preferences_exit_ask_save_changes">Values are changed. Save new values?</string>
+
+    <!-- Secchi Disk -->
+    <string name="main_secchidisk_ask_question">Do you have a Secchi Disk?</string>
+    <string name="main_secchidisk_ask_yes">Yes</string>
+    <string name="main_secchidisk_ask_ok">OK</string>
+    <string name="main_secchidisk_ask_no">No</string>
+    <string name="main_secchidisk_ask_cancel">Cancel</string>
+    <string name="main_secchidisk_ask_estimated_depth">Enter estimated Secchi Disk Depth (in meters, can use decimals).</string>
+    <string name="main_secchidisk_ask_estimated_depth_bad_format">Bad format in Secchi Disk depth</string>
+        
+    <!-- Panel Sun -->
+    <string name="main_panelsun_location_dialog_loading">Automatic Sun Position</string>
+    <string name="main_panelsun_location_dialog_getting">Please wait &#8230;</string>
+    <string name="main_panelsun_location_dialog_cancel">Cancel Automatic Sun Position</string>
+    <string name="main_panelsun_arrow_content_description">Image to ilustrate how to point the sun</string>    
+    <string name="main_panelsun_instructions1">Point the device to the sun and touch the screen.</string>
+    <string name="main_panelsun_instructions2">It doesn’t matter where the sea is.</string>
+        
+    <!-- Panel FU Scale -->
+    <string name="main_panelfuscale_information_content_description">Image to ilustrate pitch value</string>    
+    <string name="main_panelfuscale_pitch_content_description">Image to ilustrate pitch value</string>    
+    <string name="main_panelfuscale_work_photo_content_description">Image to work with taken photo</string>    
+    <string name="main_panelfuscale_instructions1">Take a picture of the water with the sun on your back shining over your left or right shoulder, keeping the smartphone at an angle between horizontal and 30º.</string>
+    <string name="main_panelfuscale_instructions1_secchi">Take a picture of the water with the sun on your back shining over the left or right shoulder, keeping the smartphone at an angle between the horizontal and 30º. Make sure the Secchi disk is visible (at ½ SDD).</string>   
+    <string name="main_panelfuscale_instructions2">When ready, press the button at the bottom right corner.</string>
+    <string name="main_panelfuscale_instructions3"></string>
+    <string name="main_panelfuscale_fuvalue_title">FU Value</string>
+    <string name="main_panelfuscale_fuvalue_notset"></string>
+    <string name="main_panelfuscale_no_fu_value_title">Attention</string>
+    <string name="main_panelfuscale_no_fu_value_message">Must select an Colour Bar Value</string>
+    <string name="main_panelfuscale_select_color_description">Select one of the bars (3 colour tones each) that matches the colour of the water you are observing (<b>Best done in the shade</b> - Swipe the bar to see all the options). Then tap the select button (hand). </string>
+    <string name="main_panelfuscale_error_init_camera">Error in  Camera Initizalization</string>
+    
+    <!-- Panel Select Square on Photo -->
+    <string name="main_panelsquare_instructions_secchi">Move and select the part of the image where you can see the Secchi Disk. Then tap Cut Button.</string>
+    <string name="main_panelsquare_instructions_no_secchi">Move and select the part of the image that best represents the colour of the water you are observing. Then tap the cut button.</string>
+    <string name="main_panelsquare_load_photo_error">Load Photo Error.</string>
+    <string name="main_panelsquare_location_dialog_loading">Getting Location</string>
+    <string name="main_panelsquare_location_dialog_wait">Please wait &#8230;</string>
+    <string name="main_panelsquare_location_dialog_cancel">Cancel Location</string>
+    
+    <!-- Panel Select FU Scale Value -->
+    <string name="fuscale_select_fuvalue_image_content_description">Image for select Fu Value</string>    
+    <string name="main_select_fuvalue_general_error">Select Fu Value Error.</string>
+        
+    <!-- Questions -->
+    <string name="action_settings">Settings</string>
+    <string name="main_panel_questions_title">Answer the Questions</string>
+    <string name="main_panel_questions_cloud_fraction">Cloud Fraction</string>
+    <string name="main_panel_questions_cloud_octas_clear">Clear</string>
+    <string name="main_panel_questions_cloud_octas_few">Few (10&#8211;25%)</string>
+	<string name="main_panel_questions_cloud_octas_scattered">Scattered (25&#8211;50%)</string>
+    <string name="main_panel_questions_cloud_octas_broken">Broken (50&#8211;90%)</string>
+    <string name="main_panel_questions_cloud_octas_overcast">Overcast</string>
+    <string name="main_panel_questions_cloud_no_clouds">No clouds</string>
+    <string name="main_panel_questions_cloud_some_clouds">Some clouds</string>
+    <string name="main_panel_questions_cloud_fully_clouded">Fully clouded</string>
+    <string name="main_panel_questions_raining">Raining</string>
+    <string name="main_panel_questions_raining_yes">Yes</string>
+    <string name="main_panel_questions_raining_no">No</string>
+    <string name="main_panel_questions_see_bottom">Do you see the bottom?</string>
+    <string name="main_panel_questions_bottom_yes">Yes</string>
+    <string name="main_panel_questions_bottom_no">No</string>
+    <string name="main_panel_questions_button_send">Send</string>
+    <string name="main_panel_questions_button_back">Back</string>
+    <string name="main_panel_questions_playing">I was just playing with the App\nThe picture I took is not of the sea</string>
+    <string name="main_panel_questions_files_created_ok">Files created successfully.</string>
+    <string name="main_panel_questions_no_value_title">Select Values</string>
+    <string name="main_panel_questions_no_value_message">Must Select One Answer for Each Question</string>
+    <string name="main_panel_questions_plastic_fuscale_ask_question">Do you have a Plastic FU Scale?</string>
+    <string name="main_panel_questions_plastic_fuscale_ask_yes">Yes</string>
+    <string name="main_panel_questions_plastic_fuscale_ask_no">No</string>
+    <string name="main_panel_questions_plastic_fuscale_ask_value">Enter Plastic Fu Scale Value</string>
+    <string name="main_panel_questions_plastic_fuscale_ask_ok">OK</string>
+    <string name="main_panel_questions_plastic_fuscale_ask_value_bad_format">Bad Range in Pastic FU Value</string>
+
+    <!-- AppSurvey -->
+    <string name="main_panel_questions_app_survey_ask_question">Would you like to answer a survey about this App?</string>
+    <string name="main_panel_questions_app_survey_ask_yes">Yes</string>
+    <string name="main_panel_questions_app_survey_ask_no">No</string>    
+    <string name="main_panel_appsurvey_title">App Survey</string>  
+    <string name="main_panel_appsurvey_easytouse">Did you find the APP easy to use?</string>
+    <string name="main_panel_appsurvey_yes">Yes</string>
+    <string name="main_panel_appsurvey_no">No</string>
+    <string name="main_panel_appsurvey_matchbars">Was it difficult to match the colour of the water to the colours of the bars?</string>
+    <string name="main_panel_appsurvey_lookwater">Did you prefer to look directly at the water or did you prefer to use the photo taken to match the colours?</string>
+    <string name="main_panel_appsurvey_lookwater_water">Water</string>
+    <string name="main_panel_appsurvey_lookwater_photo">Photo</string>
+    <string name="main_panel_appsurvey_design">Did you like the design? </string>
+    <string name="main_panel_appsurvey_secchi">If you used a Secchi disk, was it easier to match the colours of the bars to the colour of the water above the disk or was it easier to match them without the disk? </string>
+    <string name="main_panel_appsurvey_secchi_with">With</string>
+    <string name="main_panel_appsurvey_secchi_without">Without</string>
+    <string name="main_panel_appsurvey_secchi_didnotuseit">Did not use</string>   
+    <string name="main_panel_appsurvey_suggestions">Do you have any suggestions or remarks?</string>    
+    <string name="main_panel_appsurvey_button_back">Back</string>
+    <string name="main_panel_appsurvey_button_send">Send</string>
+    <string name="main_panel_appsurvey_no_value_title">Answer Questions</string>
+    <string name="main_panel_appsurvey_no_value_message">Please, Answer All Questions</string>
+    <string name="main_panel_appsurvey_error_generate">Error in Generate Survey</string>
+    
+	<!-- FeedBack -->   
+	<string name="main_panel_feedback_text1">Your measurement has been automatically sent to Citclop\'s database. It will be available at <a href="http://www.citclops.eu/colour-uploads/">http://www.citclops.eu/colour-uploads/</a> in a few days. Thanks for your contribution to science!!!</string>
+	<string name="main_panel_feedback_text2">You have selected a %s Forel-Ule (FU) value. These colours indicate the proportion of microscopic algae, sediment and dissolved organic material in the water. Remember, some natural phenomena can change water colour but it does not necessarily mean that the water is of bad quality. The water you selected is:</string>		
+	<string name="main_panel_feedback_desc_value1">•	Indigo blue to greenish blue with high light penetration(1&#8211;5 FU scale). These waters have often low nutrient levels and low production of biomass. The colour is dominated by microscopic algae (phytoplankton).</string>
+	<string name="main_panel_feedback_desc_value2">•	Greenish blue to bluish green (6&#8211;9 FU scale). The colour is still dominated by algae, but also increased dissolved matter and some sediment may be present. Typical for areas towards the open sea.</string>	
+	<string name="main_panel_feedback_desc_value3">•	Greenish (10&#8211;13 FU scale). Often coastal waters which usually display increased nutrient and phytoplankton levels, but also contain minerals and dissolved organic material.</string>	
+	<string name="main_panel_feedback_desc_value4">•	Greenish brown to brownish green (14&#8211;17 FU scale). Usually with high nutrient and phytoplankton concentrations, but also increased sediment and dissolved organic matter. Typical for near-shore areas and tidal flats.</string>	
+	<string name="main_panel_feedback_desc_value5">•	Brownish green to cola brown (18&#8211;21 FU scale). Waters with an extremely high concentration of humic acids, which are typical for rivers and estuaries.</string>
+	<string name="main_panel_feedback_url_results">http://www.citclops.eu/colour-uploads/</string>
+	<string name="main_panel_feedback_url_results_back">Back</string>
+	<string name="main_panel_feedback_url_results_error_load">Error Loading Results Page</string>
+	<string name="main_panel_feedback_ok">OK</string>
+	<string name="title_activity_citclops_results">Citclops Results</string>
+					
+    <!-- FU Preferences Activity -->
+    <string name="title_activity_preference">FU Bar Settings</string>
+    <string name="preferences_chooseFuBar">Select FU Bar </string>
+    <string name="preferences_redValue">Red</string>
+    <string name="preferences_greenValue">Green</string>
+    <string name="preferences_blueValue">Blue</string>
+    <string name="preferences_visibility">Visibility</string>
+    <string name="preferences_btResetAll">Reset All</string>
+    <string name="preferences_btAccept">Accept</string>
+    <string name="preferences_btCancel">Cancel</string>
+    <string name="preferences_FUBarName">FU Scale Bar</string>
+    <string name="title_activity_main_preferences">Preferences</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- FU Help and Quick Help Activity -->    
+    <string name="title_activity_fuscale_help">Information</string>
+    <string name="title_activity_fuscale_quick_help">Information</string>
+    
+    <string name="help_0_title"></string>
+    <string name="help_1_title">General Information</string>
+    <string name="help_2_title">Colour of natural waters</string>
+    <string name="help_3_title">The Forel-Ule colour comparator scale</string>
+  	<string name="help_4_title">How to determine SDD and FU colour</string>
+    <string name="help_5_title">The Citclops Colour Observation App</string>
+    <string name="help_6_title">How to use the APP</string>
+  	<string name="help_7_title">History</string>
+  	<string name="help_n_back"><u>Back</u></string>
+
+  	<string name="quick_help_0_title">Quick Help. Step 1</string>
+  	<string name="quick_help_1_title">Quick Help. Step 2</string>
+  	<string name="quick_help_2_title">Quick Help. Step 3</string>
+  			  				
+    <string name="help_0_subtitle1">Index</string>
+  	<string name="help_0_pgrf1">• <u>General information</u></string>
+  	<string name="help_0_pgrf2">• <u>Colour of natural waters</u></string>
+  	<string name="help_0_pgrf3">• <u>The Forel-Ule colour comparator scale</u></string>
+  	<string name="help_0_pgrf4">• <u>How to determine Secchi Disk Depth (SDD) and FU(Forel-Ule)</u></string>
+  	<string name="help_0_pgrf5">• <u>The Citclops Colour Observation App</u></string>
+  	<string name="help_0_pgrf6">• <u>How to use the APP</u></string>
+  	<string name="help_0_pgrf7">• <u>History</u></string>
+
+  	<string name="quick_help_0_pgrf1">Take a picture of the water with the sun on your back, over your left or right shoulder. The angle of the camera with respect to the water surface should be less than 30º. If it is cloudy and you do not see the sun, do not worry and just take a picture. If you have a Secchi disk, make sure it appears on the picture and it is at half the Secchi disk depth (SDD).</string>
+  	<string name="quick_help_0_pgrf2">Sun at your back, over left or right shoulder</string>
+  		
+    <string name="help_1_pgrf1">This ‘APP’ has been developed for the Citclops FP-7 project (ww.citclops.eu). The aim is to develop systems to retrieve and use data on water colour, transparency and fluorescence, using low-cost sensors combined with people acting as observers and data carriers.</string>
+    <string name="help_1_pgrf2">This APP allows you to measure the colour of natural waters, through the ‘colour measurement’ icon and the transparency if you have a Secchi disk.</string>
+    <string name="help_1_pgrf3">Before you start using the APP, you should:\n		•	Read the information on colour\n		•	Read the instructions on how to do the measurements\n		•	set your preferences\n</string>
+
+    <string name="quick_help_1_pgrf1"><b>Look</b> at water and select the part of the picture that best represents the colour of the water you are observing, without foam or sun reflection. If you have a Secchi disk (at ½ SDD), make sure it appears on the picture and you select that part. Do not wear sunglasses for this.\nThen, tap the <b>cut</b> button. </string>
+    <string name="quick_help_1_pgrf2"><b>Compare</b> the coloured bars with either the colour of the water you are observing  </string>
+    <string name="quick_help_1_pgrf3">or, if easier, with the colour of the picture you just cut. If you have a Secchi disk compare the coloured bars with the colour of the water above it (at ½ SDD).</string>
+    <string name="quick_help_1_pgrf4"><b>Select</b> one of the bars (3 colour tones each) that matches the colour of the water you are observing (Swipe the bar to see all the options). Then tap the select button (hand).</string>
+        
+    <string name="help_2_subtitle1">Colour of natural waters</string>
+    <string name="help_2_pgrf1">Colour, together with clarity, is one of the most apparent characteristics to the human eye when observing natural water. In general, the apparent colour is a result of substances that are either suspended or dissolved in the water column. There are 3 main natural components, besides the water itself (blue), affecting the water colour and clarity in natural environments:</string>
+    <string name="help_2_pgrf2">1) <b>Phytoplankton</b> (generally green)\n2) <b>Non-algal matter, such as fine soils</b> (milky, grey to dark)\n3) <b>Dissolved organic matter</b> (yellow to brownish)</string>
+    
+    <string name="quick_help_2_pgrf1"><b>Answer</b> questions and click Send</string>
+    <string name="quick_help_2_pgrf2">Answer survey questions (optional)</string>
+    
+   	<string name="help_3_pgrf1">The Forel-Ule (FU) scale is used to approximately determine the colour of natural waters, used in limnology and oceanography. The modern FU scale can be manufactured with high-quality colour-effect lighting filters, an improvement with respect to the materials employed to manufacture the original scale from the 19th century, which required the mixing of noxious chemicals. The colour graduations correspond to open sea and lake water bodies (from blue to brown, going through green), as they appear to an observer. The scale is used together with the Secchi disk (SD) submersed to half the Secchi disk depth (SDD).</string>
+
+   	<string name="help_4_pgrf1"><i>Modern FU scale colour comparison using Secchi disk.</i></string>
+   	<string name="help_4_pgrf2">•	If possible the measurement should be done in the shade. Don’t wear sunglasses.\n•	Slowly lower the Secchi Disk (SD) into the water until it disappears from sight and note this depth. This is the Secchi Disk Depth (SDD). \n•	Slowly raise the disk until half the SDD. \n•	With the Forel-Ule (FU) scale in the shade (avoiding direct sunlight), compare the colour observed above the SD, with the colours of the scale over the white bars in the back. \n•	Record FU number </string>
+   	
+   	<string name="help_5_pgrf1">The Citclops Colour App makes use of 21 predefined colours that are equal to the colours of the traditional Forel-Ule colour comparator scale (see Forel-Ule scale section). The human eye can accurately match colours when viewed simultaneously.  So, the idea is to compare the colour of natural waters (river, lake, sea) with the Forel-Ule coloured bars as shown on the screen of you Smartphone or Smartcamera.</string>
+   	<string name="help_5_pgrf2">The App can be used on its own or in combination with (preferable) Secchi disk and/or modern Forel-Ule scale.</string>
+   	
+   	<string name="help_6_subtitle1"><b>Step 1.</b> Set your preferences (Main Screen)</string>
+   	<string name="help_6_pgrf1"><b>Go</b> to ‘App Preferences’\n<b>Select</b> your options.\n	•	Profile Preferences, if you are not sure about your profile, just click on ‘volunteer’.\n	•	Measurement preferences, if you have a Secchi disk and a FU scale, you can allow the APP to ask you for the values you have measured.\n		•	Data Upload preferences, in case you do not want the data to be uploaded at the moment, or only when it is connected to WIFI.\n</string>
+   	
+   	<string name="help_6_subtitle2"><b>Step 2.</b> Return to Main Screen</string>
+   	<string name="help_6_pgrf2">•	If you have a Secchi Disk (SD) first determine Secchi Disk Depth (SDD, in meters)\n•	If you have a Modern Forel-Ule (FU) scale establish FU observation above the Secchi disk at ½ SD depth.</string>
+	<string name="help_6_pgrf3">In case you have an FU scale and/or SD you should set the measurement preferences (initial screen) to be asked about introducing these values.</string>   		   		
+   	
+   	<string name="help_6_subtitle3"><b>Step 3.</b> Go to Colour Measurement (Main Screen)</string>
+  	<string name="help_6_pgrf4"><b>Step 4.</b> Select the colour measurement icon   </string>
+  	<string name="help_6_pgrf5"><b>Step 5.</b> Take a picture of the water with the sun on your back, over your left or right shoulder. The angle of the camera with respect to the water surface should be less than 30º. If it is cloudy and you do not see the sun, do not worry and just take a picture. If you have a Secchi disk, make sure it appears on the picture.</string>
+  	<string name="help_6_pgrf6"><b>Step 6.</b> Look at water and select the part of the picture that best represents the colour of the water you are observing without foam or sun reflection. If you have a Secchi disk (at ½ SDD), make sure it appears on the picture and you select that part. Do not wear sunglasses for this.\nThen, tap the cut button.</string>    
+  	<string name="help_6_pgrf7"><b>Step 7.</b> Compare the coloured bars with either the colour of the water you are observing or, if easier, with the colour of the picture you just cut. If you have a Secchi disk compare the coloured bars with the colour of the water above it (at ½ SDD). </string>
+  	<string name="help_6_pgrf8"><b>Step 8.</b> Select one of the bars (3 colour tones each) that matches the colour of the water you are observing (Swipe the bar to see all the options). Then tap the select button (hand). </string>
+  	<string name="help_6_pgrf9"><b>Step 9.</b> Answer questions</string>
+  	<string name="help_6_pgrf10"><b>Step 10.</b> Click Send </string>
+  	<string name="help_6_pgrf11"><b>Step 11.</b> Answer survey questions (optional)</string>
+  				
+   	<string name="help_7_pgrf1">Navigators have observed with great attention the varying tints displayed by the ocean and the circumstances that apparently influence those tints. Concerning observations on the colour of the sea a general question remained to be answered: what is the true colour of the sea? To answer this question scientists proposed techniques to establish the colour of natural water by means of comparison against some colour(ed) standard. The first note mentioning such a standard, if we do not take into account De Saussure’s cyanometer (1791), already mentioned before and Arago’s cyanometer (1845), dates back to a session of ‘Société vaudoise des sciences naturelles, Lausanne 21s’ of December 1887. Here François Alphonse Forel proposes a thirteen-colour scale for a quick identification of the colour of sea, lake or river water, covering the blue to green region. </string>
+   	<string name="help_7_pgrf2">In 1892, Willi Ule extended the scale towards the brownish colours. Since then, the scale became known as the Forel-Ule scale (21 tube colours) or Xantho-meter and evolved to the most common and well-known colour scale used to determine the colour of seas, lakes and rivers. In the past, hundreds-thousands of colour observations) were conducted all over the world (around 250 000 archived by the U.S. National Oceanographic Data Centre) and even at this moment, the scale is still in use. An example of a sea colour map (Schott, 1912, pp. 125-127 and Table VIII) obtained from Forel-Ule observations was published by Schott in 1912 in his Geography of the Atlantic Ocean).</string>
+    
+</resources>

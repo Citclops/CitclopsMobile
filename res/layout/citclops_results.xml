@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <WebView
+        android:id="@+id/HelpWebViewHelp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <FrameLayout 
+        android:layout_weight="1"
+        android:layout_margin="5dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <ImageButton
+	        android:id="@+id/HelpImgButtonBack"
+	        android:layout_width="match_parent"
+	        android:layout_height="120dip"
+	        android:scaleType="fitXY"
+	        android:background="#00FFFFFF"
+	        android:src="@drawable/button_return_citclops_result" />
+        <TextView
+            android:id="@+id/HelpTxtHelpTancar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:textColor="#FFFFFFFF"
+            android:textAppearance="?android:attr/textAppearanceMedium" />        
+    </FrameLayout>
+</LinearLayout>

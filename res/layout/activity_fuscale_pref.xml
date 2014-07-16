@@ -1,0 +1,148 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:layout_gravity="top|center_horizontal"
+            android:text="@string/title_activity_preference"
+            android:textAppearance="?android:attr/textAppearanceLarge" />        
+        
+
+   	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="35dip"
+	        android:orientation="vertical" >
+   	    
+   	    	<TextView
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:text="@string/preferences_chooseFuBar"
+    	        android:textAppearance="?android:attr/textAppearanceMedium" />
+   	        
+   	   	    <Spinner
+	   	        android:id="@+idPrefs/spnFuBar"
+	   	        android:layout_width="match_parent"
+	   	        android:layout_height="wrap_content" />
+   	    	
+   	   	    <LinearLayout
+	   	    	android:layout_marginTop="20dip"
+	            android:layout_width="240dp"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >
+   	   	       	<SeekBar
+		            android:id="@+idPrefs/seekBarRed"
+	   	    	    android:layout_marginLeft="5dip"
+		            android:layout_width="150dip"
+		            android:layout_height="wrap_content"
+		            android:max="255" />
+	   	    	<TextView
+	   	    	    android:id="@+idPrefs/txtRedValue"
+	   	    	    android:text="@string/preferences_redValue"
+	   	    	    android:layout_marginLeft="5dip"
+	   	    	    android:layout_gravity="center_vertical"
+	   	    	    android:textSize="14sp"
+	    	        android:layout_width="70dip"
+	    	        android:layout_height="wrap_content"/>
+			</LinearLayout>   	   	        
+   	   	    <LinearLayout
+	   	    	android:layout_marginTop="20dip"
+	            android:layout_width="220dp"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >
+   	   	       	<SeekBar
+		            android:id="@+idPrefs/seekBarGreen"
+	   	    	    android:layout_marginLeft="5dip"
+		            android:layout_width="150dip"
+		            android:layout_height="wrap_content"
+		            android:max="255" />
+	   	    	<TextView
+	   	    	    android:id="@+idPrefs/txtGreenValue"
+	   	    	    android:text="@string/preferences_greenValue"
+	   	    	    android:layout_marginLeft="5dip"
+	   	    	    android:layout_gravity="center_vertical"
+	   	    	    android:textSize="14sp"
+	    	        android:layout_width="50dip"
+	    	        android:layout_height="wrap_content"/>
+			</LinearLayout>   	   	        
+   	   	    <LinearLayout
+	   	    	android:layout_marginTop="20dip"
+	            android:layout_width="220dp"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >
+   	   	       	<SeekBar
+		            android:id="@+idPrefs/seekBarBlue"
+	   	    	    android:layout_marginLeft="5dip"
+		            android:layout_width="150dip"
+		            android:layout_height="wrap_content"
+		            android:max="255" />
+	   	    	<TextView
+	   	    	    android:id="@+idPrefs/txtBlueValue"
+	   	    	    android:text="@string/preferences_blueValue"
+	   	    	    android:layout_marginLeft="5dip"
+	   	    	    android:layout_gravity="center_vertical"
+	   	    	    android:textSize="14sp"
+	    	        android:layout_width="50dip"
+	    	        android:layout_height="wrap_content"/>
+			</LinearLayout>   	   	        
+   	        <CheckBox
+		        android:id="@+idPrefs/cbVisible"
+	   	    	android:layout_marginTop="20dip"
+	   	    	android:layout_marginBottom="60dip"
+	   	    	android:layout_marginLeft="15dip"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+	   	    	android:textSize="18sp"
+		        android:text="@string/preferences_visibility" />
+   	    </LinearLayout>
+   	    
+   	    <FrameLayout
+	    	android:id="@+idPrefs/lytFUBar"
+	        android:layout_width="60dip"
+	        android:layout_height="match_parent"
+	        android:layout_marginTop="60dip"
+	        android:layout_marginBottom="60dip"	        
+	        android:layout_marginRight="20dip"	        
+	        android:layout_gravity="right|center_vertical">
+   	    </FrameLayout>
+   	    
+   	    <FrameLayout
+		    android:layout_gravity="bottom"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+
+   	        <Button
+		        android:id="@+idPrefs/btResetAll"
+		        android:onClick="onClickResetAll"		        
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		       	android:layout_gravity="left"		      
+		        android:text="@string/preferences_btResetAll" />
+	   	    <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="right"		        
+		        android:orientation="horizontal" >   	    
+	   	        <Button
+			        android:id="@+idPrefs/btCancel"
+			        android:onClick="onClickCancel"			       
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/preferences_btCancel" />
+	   	        <Button
+			        android:id="@+idPrefs/btAccept"
+			        android:onClick="onClickAccept"			        
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/preferences_btAccept" />
+   	    	</LinearLayout>
+   	    </FrameLayout>
+        
+    </FrameLayout>
+</ScrollView>
+

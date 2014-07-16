@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dip"
+	        android:textColor="#FF002654"
+	        android:text="@string/help_5_pgrf1"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 		<TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dip"
+	        android:textColor="#FF002654"
+	        android:text="@string/help_5_pgrf2"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dip"
+	        android:layout_gravity="center_horizontal"
+	        android:src="@drawable/help_page5_img1" />
+
+	    <TextView
+	        android:id="@+id/fuscale_help_5_back"	        	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:layout_marginTop="15dip"
+	        android:layout_marginLeft="5dip"
+	        android:layout_marginRight="25dip"
+	        android:layout_marginBottom="15dip"	        
+	        android:textColor="#FF002654"
+	        android:text="@string/help_n_back"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	    	    		
+	</LinearLayout>
+</ScrollView>
